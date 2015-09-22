@@ -1,0 +1,396 @@
+/* Import basic styles */
+@import url(../../rsc/css/basic.css);
+/* Import standard image styles */
+@import url(../../rsc/css/img.css);
+
+/* This template is a modified version of the free version of Purple Beauty 
+ * created by Dieter Schneider 2006 for www.webart.no.
+ * You have to keep the link to webart.no in your footer, however
+ * if you want to remove it and get the PSD file you can buy this
+ * template for 5 dollars at www.webart.no/webshop. 
+ */
+
+/* evoskinned for b2evolution v1.9.* by EdB || http://wonderwinds.com/ */
+
+/* Override basic styles */
+blockquote {
+	background-image: url(img/blockquote.jpg);
+	background-repeat: no-repeat;
+	background-color: #5A3D59;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px dotted #FFFFFF;
+	padding: 30px;
+}
+
+/* styles for purple_beauty skin */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	background-image: url(img/body_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center;
+	background-attachment: fixed;
+	}
+
+#wrapper {
+	width: 896px;
+	padding: 3px;
+	margin: 0px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+/* Added innerwrapper */
+.innerwrapper {
+ background-image: url(img/bcg.gif);
+}
+
+.pageHeader {
+	margin-top: 1px;
+	background-image: url(img/header_low.jpg);
+	height: 320px;
+	border: 1px solid #FFFFFF;
+}
+
+.widget_core_coll_title h1, h1.pageTitle {
+	background-color: transparent;
+	color: #FFFFFF;
+	margin: .4em 1em .4em 264px;
+	border: none;
+	padding: 0;
+	font-size: 270%;
+}
+
+.widget_core_coll_title h1 a, h1.pageTitle a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.widget_core_coll_title h1 a:hover, h1.pageTitle a:hover {
+	text-decoration: underline;
+}
+
+.widget_core_coll_tagline, .pageSubtitle {
+	color: #FFC0FF;
+	font-family: serif;
+	font-size: 112%;
+	font-style: italic;
+	letter-spacing: 4px;
+	margin: 6px 6px 6px 302px;
+}
+
+/* bloglist */
+ul.bloglist {
+	height: 2.6em !important;
+	height: 2.7em;
+	margin-top: 7px;
+	padding: 1.7em 0em .3em .4em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border: 1px solid #FFFFFF;
+}
+
+ ul.bloglist li, li.selected{
+padding-right: 1px;
+display: inline;
+font-size: 1em;
+}
+
+/*
+ul.bloglist {
+margin: 0px;
+padding: 0px;
+}
+*/
+.bloglist a.default, .bloglist a.selected {
+border: 1px solid #CCCCCC;
+padding: 1.2em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.bloglist a.default:hover, .bloglist a.selected:hover, .bloglist a.default:active {
+	border: 1px solid #FFFFFF;
+	padding: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.bloglist .selected {
+	font-weight: bold;
+}
+ 
+/* main body */
+.innerwrapper {
+	margin-top: 7px;
+	background-image: url(img/wrapper_bg.gif);
+	background-repeat: repeat-y;
+}
+
+/* side bars */
+.bSideBarLeft {
+	background-color: #C138C1;
+	color: #FFFFFF;
+	background-image: url(img/round_corner.gif);
+	background-repeat: no-repeat;
+	float: left;
+	width: 155px;
+	padding: 5px;
+}
+
+.bSideBarRight {
+	background-color: #C138C1;
+	color: #FFFFFF;
+	background-image: url(img/round_corner_r.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	float: right;
+	width: 155px;
+	padding: 5px;
+}
+
+.bSideItem {
+	margin-top: 8px;
+	margin-bottom: 4px;
+}
+
+.bSideItem h3, .bSideItem h4 {
+	padding: 5px;
+	font-size: 1.3em;
+	color: #FFFFFF;
+	margin: 5px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.bSideItem h4 {
+	font-size: 1.2em;
+	margin-left: 15px;
+	border-bottom: none;
+}
+
+.bSideItem ul {
+	margin-left: 25px;
+	list-style-image: url(img/list_bullet.png);
+	margin-bottom: 20px;
+}
+
+.bSideItem ul a {
+	text-decoration: none;
+}
+
+.bSideItem p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.bSideItem p a {
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.SearchField {
+	width: 148px;
+	height: 1.2em;
+	border-top: 2px solid #FFC0FF !important;
+	border-right: 2px solid #C138C1 !important;
+	border-bottom: 2px solid #C138C1 !important;
+	border-left: 2px solid #FFC0FF !important;
+}
+
+/* posts (center column) */
+.bPosts {
+	background-color: #5A3D59;
+	color: #FFFFFF;
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-bottom: 5px;
+	border: 0px solid #FFFFFF;
+	padding: 0;
+}
+
+.bPosts h2 {
+	margin: 0;
+	border-bottom: 2px solid #000000;
+	padding: .2em 24px .2em .2em;
+	text-align: right;
+	}
+
+.bPosts p {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.bPost, .bPostpublished, .bComment {
+	margin: 0;
+	border-bottom: 5px solid #000000;
+	padding: 0;
+}
+
+.bComment {
+	border-top: 5px solid #000000;
+	border-bottom: none;
+}
+
+.bSmallHead {
+	font-size: 84%;
+	margin: 2ex 12px 1ex 12px;
+}
+
+.bTitle, .bCommentTitle {
+	margin: 1ex 12px;
+	font-size: 120%
+}
+
+.bText, .bCommentText {
+	margin: 0 12px;
+}
+
+.bText {
+	font-size: 104%;
+}
+
+.bSmallPrint, .bCommentSmallPrint {
+	font-size: 84%;
+	margin: 1ex 12px;
+}
+
+a:link {
+	color: #FFFFFF;
+	background-color: inherit;
+}
+
+a:visited {
+	color: #FFFFFF;
+	background-color: inherit;
+}
+
+a:hover {
+	color: #FF00FF;
+	background-color: inherit;
+}
+
+a:active {
+	color: #FFFFFF;
+	background-color: inherit;
+}
+
+/* footer */
+.pageFooter {
+	clear: both;
+	background-image: url(img/bar_bg.gif);
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 4px;
+	text-align: center;
+}
+
+.baseline {
+	font-size: 80%;
+	padding: 1em;
+}
+
+/* comments and forms (tweaked from rsc/css/forms.css) */
+form {
+	margin: 0;
+	padding: 0;
+}
+
+form.inline {
+	margin: 0px;
+	padding:0px;
+	display: inline;
+}
+
+fieldset.input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.bComment {
+	border-top: 5px solid #000000;
+	border-bottom: none;
+}
+
+form.bComment fieldset {
+	border: none;
+	margin: 2ex 0ex;
+	padding: 0ex;
+}
+
+form.bComment fieldset label {
+	font-weight: bold;
+}
+
+form.bComment fieldset div.label {
+	float: left;
+	width: 18%;
+	text-align: right;
+	padding-top: .5ex;
+	font-weight: bold;
+}
+
+form.bComment fieldset div.input {
+	margin: 0 0 0 20%;
+}
+
+form.bComment fieldset.input {
+	margin: 0;
+}
+
+form.bComment fieldset div.info {
+	margin: 0 0 0 20%;
+	padding-top: .5ex;
+}
+
+textarea.bComment, .bComment input[type="text"] {
+	width: 96%;
+	border-top: 2px solid #FFC0FF;
+	border-right: 2px solid #C138C1;
+	border-bottom: 2px solid #C138C1;
+	border-left: 2px solid #FFC0FF;
+}
+
+/* Calendar: */
+table.bCalendarTable caption {
+	background-color: #AC6AAC;
+	border-bottom: 0;
+}
+table.bCalendarTable {
+	border: solid 1px #AC6AAC;
+	border-collapse: separate;
+	width: 96%;
+}
+table.bCalendarTable a {
+	color: #5A3D59;
+}
+table.bCalendarTable tfoot td {
+	background-color: #AC6AAC;
+	text-align: center;
+}
+table.bCalendarTable tfoot a {
+	text-decoration: none;
+}
+table.bCalendarTable tfoot a:hover {
+	background-color: #5A3D59;
+}
+th.bCalendarHeaderCell {
+	color: #CCC !important;
+	font-weight: normal;
+}
+#bCalendarToday {
+	background-color: #AC6AAC !important;
+	color: #5A3D59 !important;
+}
