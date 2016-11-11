@@ -4,6 +4,8 @@ Link to skin: http://skins.b2evolution.net/purple-beauty-skin
 
 <img src="skinshot.png"/>
 
+### Update Log
+
 #### v1.1.
 
 - Sitewide_header included for easier multi-blogging experience
